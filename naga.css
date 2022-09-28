@@ -1,0 +1,73 @@
+body{
+background-image: url('ms.jpg');
+background-size: cover;
+}
+
+.btn{
+text-align:center;
+color:white;
+text-size:500;
+
+margin-top:7px;
+margin-left:20px;
+margin-right:5px;
+background:none;
+border:none;
+}
+
+.allbtn{
+
+text-align:right;
+background:black;
+padding:10px;
+}
+
+.bold{
+font-size: 20px;
+}
+
+.logo{
+border-radius:10px;
+width:300px;
+display:block;
+margin-left:2px;
+}
+.welcome{
+color:red;
+font-size:8px;
+}
+.bottom-start{
+  float: left;
+  width: 30%;
+  background-size:cover;
+  height:100vh;
+  border:3px solid #CDD4D4;
+  animation-name:example;
+  animation-duration:10s;
+  animation-iteration-count:infinite;
+  
+  
+}
+.bottom-img{
+height:80px;
+width:80px;
+margin:15px;
+border-radius:12px;
+
+}
+
+.para{
+padding:20px;
+margin-left:30%;
+letter-space:5px;
+font-size:18px;
+}
+
+@keyframes example{
+ 0% {background-image: url('rcy.jpg');left:0px; top:0px;}
+ 25% {background-image: url('baile.jpg');left:200px; top:0px;}
+ 50% {background-image: url('separet.jpg');left:200px; top:200px;}
+ 75% {background-image: url('load.jpg');left:0px; top:200px;}
+ 100% {background-image: url('market.jpg');left:0px; top:0px;}
+}
+

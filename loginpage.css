@@ -1,0 +1,54 @@
+.container{
+  background-color:none;
+  background-size:cover;
+  height:100vh;
+ 
+}
+.heading{
+  color:black;
+  font-size:35px;
+  font-weight:bold;
+  font-family:"serif";
+  text-align:center;
+}
+.para{
+  color:black;
+  font-size:25px;
+  font-weight:bold;
+  font-family:"serif";
+  text-align:center;
+}
+.image{
+	height:100;
+	width:450px;
+	text-align:end;
+	margin:30px;
+}
+
+.card{
+ border-radius:13px;
+ background-color:#b1ba95;
+ height:60%px;
+ width:50%;
+ margin:50px;
+ margin-bottom:20px;
+ padding:40px;
+ margin-left:auto;
+ margin-right:auto;
+}
+.input_type{
+	height:38px;
+	width:450px;
+	border-radius:8px;
+	border-width:0px;
+	margin:10px;
+	color:#b1bf82;
+}
+.button{
+height:40px;
+width:90px;
+border-radius:12px;
+background-color:;
+padding:10px;
+border-width:0px;
+}
